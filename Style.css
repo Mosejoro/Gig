@@ -1,0 +1,43 @@
+@font-face {
+    font-family: inter-variable;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+
+}   
+body{
+    font-family: inter-variable;
+    background-color: hsl(0, 0%, 8%);
+    
+}
+.Main{
+    margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:hsl(0, 0%, 12%);
+    height: fit-content;
+}
+.Main img{
+    border-radius: 50%;
+    width:70%;
+    height: auto;
+    padding-top: 20px;
+}
+div a{
+    background-color:  hsl(0, 0%, 20%);
+    padding: 20px 100px 20px 100px;
+    border-radius:25px;
+    display: block;
+    margin: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:black;
+}
